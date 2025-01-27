@@ -1,5 +1,5 @@
-import { calculateAveragePartners } from '../src/utils/danceUtils';
-import { DanceParticipants } from '../src/types/index';
+import { calculateAveragePartners } from '../utils/danceUtils';
+import { DanceParticipants } from '../types/index';
 
 describe('average function', () => {
   test('calculates the overall average number of different dance partners correctly', () => {

@@ -7,6 +7,6 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src", "test/danceController.test.ts", "test/danceUtils.test.ts"],
+  "include": ["src", "src/test/danceUtils.test.ts"],
   "exclude": ["node_modules", "dist"]
 }
