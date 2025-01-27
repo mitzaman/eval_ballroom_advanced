@@ -6,7 +6,7 @@ export interface Response extends Express.Response {
   // Custom properties can be added here
 }
 
-export type DanceStyle = "Waltz" | "Tango" | "Foxtrot";
+export type DanceStyle = "Waltz" | "Tango" | "Foxtrot" | "Quickstep";
 
 export interface DanceParticipants {
   total_leaders: number;
