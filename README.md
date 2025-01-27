@@ -64,10 +64,32 @@ npm start
   "average_partners": 2
 }
 ```
+### Get Dance Preferences
 
+**GET** `/dance-preferences`
+
+Returns the most and least popular dance types from the data stored in the dance_sessions table.
+
+#### Response:
+```json
+{
+  "most_popular": {
+    "style": "Waltz",
+    "usage_count": "14"
+  },
+  "least_popular": {
+    "style": "Foxtrot",
+    "usage_count": "2"
+  }
+}
+```
 ## Running Tests
+
 To run Jest tests:
+
 ```sh
+npm install --save-dev jest @types/jest ts-jest
+
 npm test
 ```
 
@@ -82,5 +104,3 @@ npm test
    ```
 The service will be available at `http://localhost:5000`.
 
-## License
-This project is licensed under the MIT License.
